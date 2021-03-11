@@ -15,7 +15,7 @@ html {
 .logo,
 .navegacion,
 .section
-.section2 {
+.section2, .section3 {
   width: 100%;
   min-width: 150px;
   height: 150px;
@@ -77,7 +77,7 @@ h1 {
 }
 .p1 {
   color: #a4a5a6;
-  text-align: justify;
+  text-align: right;
   margin-right: 4rem;
 }
 .section2 {
@@ -99,6 +99,30 @@ h1 {
 }
 .p2 {
   color: #404040;
-  text-align: justify;
+  text-align: left;
   margin-left: 1rem;
+}
+.section3 {
+  background-color: white;
+  background-color: #404040;
+  
+}
+.div3 {
+  background-color: #404040;
+  border-style: solid;
+  border-width: 0.3rem;
+  
+}
+.cat3 {
+  border-radius: 50%;
+  width: 40%;
+  height: 50%;
+  float: left;
+}
+
+.p3 {
+  color: #a4a5a6;
+  text-align: right;
+  margin-right: 1rem;
+  padding-bottom: 1.7rem;
 }
